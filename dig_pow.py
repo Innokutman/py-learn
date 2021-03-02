@@ -10,12 +10,13 @@ def dig_pow(n, p):
     s = 0
     for x in l: 
         s += x**p 
+        # print(s, p, x)
         p+=1
-    k = s // m
-    if k != 0:
-        return k
+    k = s % m
+    if k == 0:
+        return s // m
     else:
         return -1
     
-dig_pow(89, 1)
-print(dig_pow(89, 1))
+dig_pow(135, 1)
+print(dig_pow(46288, 1))
