@@ -3,7 +3,13 @@ def shapeArea(n):
     if (n == 1):
         area = 1
         return area
+#     else: 
+#         area = shapeArea(n - 1) + (n*2) + ((n-2)*2)
+#         return area
+# print(shapeArea(3))
     else: 
-        area = (n - 1) + (n*2) + ((n-2)*2)
+        # area = shapeArea(n - 1) + 4 * (n - 1)
+        # return area     
+        area = (2 + (n-2)*2) * (n-1) + 2*n - 1
         return area
-print(shapeArea(10))
+print(shapeArea(8000))
