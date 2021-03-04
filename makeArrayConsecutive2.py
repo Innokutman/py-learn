@@ -1,3 +1,4 @@
+# https://app.codesignal.com/arcade/intro/level-2/bq2XnSr5kbHqpHGJC
 def makeArrayConsecutive2(statues):
     
     max_height = max(statues)
