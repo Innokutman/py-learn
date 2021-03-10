@@ -9,3 +9,5 @@ def palindromeRearranging(inputString):
     if count <= 1:
         return True
     return False
+
+print(palindromeRearranging("aabbbaa"))
