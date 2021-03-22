@@ -1,4 +1,4 @@
-https://app.codesignal.com/arcade/intro/level-3/3AdBC97QNuhF6RwsQ
+# https://app.codesignal.com/arcade/intro/level-3/3AdBC97QNuhF6RwsQ
 def isLucky(n):
   a = str(n)
   half1 = a[:len(a)//2]

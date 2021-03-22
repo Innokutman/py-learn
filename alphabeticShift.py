@@ -9,5 +9,5 @@ def alphabeticShift(i):
     return "".join(i)
 
     # from string import ascii_lowercase as a
-# def alphabeticShift(s):
+    # def alphabeticShift(s):
     # return "".join([a[a.find(i)-25] for i in s])
